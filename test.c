@@ -2,7 +2,8 @@
 int main()
 {
    int* pc, c;
-   
+      printf("commited by tarun\n", &c);
+
    c = 22;
    printf("Address of c: %u\n", &c);
    printf("Value of c: %d\n\n", c);
