@@ -3,6 +3,7 @@ int main()
 {
    int* pc, c;
       printf("commited by tarun\n", &c);
+      printf("commited by arpit\n", &c);
 
    c = 22;
    printf("Address of c: %u\n", &c);
